@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>DUNKIN' DONUTS RECOGNIZER</title>
+
+    <style>
+        .right {
+        position: absolute;
+        right: 5px;
+        width: 12%;
+        height : auto;
+        }
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <img src="/static/logo.png" class="right"/>
+    </div>
+    <div>
+      <img src="{{ url_for('video') }}" width="68%" height="auto" class="center"/>
+    </div>
+  </body>
+
+
+</html>
